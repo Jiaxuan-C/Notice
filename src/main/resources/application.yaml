@@ -14,7 +14,7 @@ spring:
     host: smtp.qq.com #邮件服务器地址
     port: 465 #端口号
     username: 1261821731@qq.com
-    password: ywlcbmxrjdtwhgaf
+    password: --------------
     default-encoding: UTF-8 #默认编码格式
     properties:
       mail:
@@ -28,12 +28,3 @@ spring:
     username:
     password:
     url: jdbc:clickhouse://10.112.196.200:8123/default
-mail:
-  username: ysuchenjiaxuan@163.com #邮箱发送账号
-  password: VMMAKYRRYAHBZAQU  #邮箱授权码
-  host: smtp.163.com
-  port: 465
-  auth: true
-  tls: true
-  from: ysuchenjiaxuan@163.com
-  to: ysuchenjiaxuan@163.com
